@@ -8,9 +8,10 @@ function UserManaging() {
   const [userCity, setUserCity] = useState('');
   const [selectedUserId, setSelectedUserId] = useState(null);
 
-  const baseUrl = `https://userapi-hqvf.onrender.com`;
+  // ✅ Backend hosted on Render
+  const baseUrl = `https://userapi-hqvf.onrender.com/api/User`;
 
-  // ✅ getApi wrapped in useCallback to avoid warning
+  // ✅ Fetch all users
   const getApi = useCallback(async () => {
     try {
       const apiResponse = await axios.get(baseUrl);
@@ -18,7 +19,7 @@ function UserManaging() {
         setUserList(apiResponse.data);
       }
     } catch (e) {
-      console.log(e);
+      console.log("Error fetching users:", e);
     }
   }, [baseUrl]);
 
@@ -33,6 +34,7 @@ function UserManaging() {
     setSelectedUserId(null);
   };
 
+  // ✅ Create or Update user
   const createUser = async (e) => {
     e.preventDefault();
     const newUser = {
@@ -41,30 +43,27 @@ function UserManaging() {
       city: userCity
     };
 
-    let apiResponse = null;
-    let apiUrl = null;
-
     try {
       if (selectedUserId) {
-        apiUrl = `${baseUrl}/${selectedUserId}`;
+        // Update user
+        const apiUrl = `${baseUrl}/${selectedUserId}`;
         newUser["id"] = selectedUserId;
-        apiResponse = await axios.put(apiUrl, newUser);
+        await axios.put(apiUrl, newUser);
       } else {
-        apiUrl = `${baseUrl}`;
-        apiResponse = await axios.post(apiUrl, newUser);
+        // Create user
+        await axios.post(baseUrl, newUser);
       }
     } catch (e) {
-      console.log(e);
+      console.log("Error creating/updating user:", e);
     }
 
-    setSelectedUserId(null);
     clearForm();
     getApi();
   };
 
+  // ✅ Fetch user data for editing
   const updateAction = async (userId) => {
     setSelectedUserId(userId);
-
     const apiUrl = `${baseUrl}/${userId}`;
     try {
       const apiResponse = await axios.get(apiUrl);
@@ -73,23 +72,23 @@ function UserManaging() {
       setUserEmail(user.email);
       setUserCity(user.city);
     } catch (e) {
-      console.log(e);
+      console.log("Error loading user for update:", e);
     }
   };
 
+  // ✅ Delete user
   const deleteAction = async (id) => {
     const confirmDelete = window.confirm("Are you sure you want to delete this user?");
     if (!confirmDelete) return;
 
-    const apiUrl = `${baseUrl}/${id}`;
     try {
+      const apiUrl = `${baseUrl}/${id}`;
       await axios.delete(apiUrl);
+      getApi();
+      console.log(`Deleted User ${id}`);
     } catch (e) {
-      console.log(e);
+      console.log("Error deleting user:", e);
     }
-
-    getApi();
-    console.log(`Deleted User ${id}`);
   };
 
   return (
@@ -97,7 +96,7 @@ function UserManaging() {
       <h1>User Management</h1>
       <div className="main-container">
         <div className="createUser">
-          <h2 className="heading">Create User</h2>
+          <h2 className="heading">{selectedUserId ? "Update User" : "Create User"}</h2>
           <form className="registerForm" onSubmit={createUser}>
             <input
               className="input-style"
@@ -105,13 +104,15 @@ function UserManaging() {
               type="text"
               placeholder="Enter Your Name"
               onChange={(e) => setUserName(e.target.value)}
+              required
             />
             <input
               className="input-style"
               value={userEmail}
               type="email"
-              placeholder="Enter Your Mail"
+              placeholder="Enter Your Email"
               onChange={(e) => setUserEmail(e.target.value)}
+              required
             />
             <input
               className="input-style"
@@ -119,6 +120,7 @@ function UserManaging() {
               type="text"
               placeholder="Enter Your City"
               onChange={(e) => setUserCity(e.target.value)}
+              required
             />
             <button type="submit">
               {selectedUserId ? "Update User" : "Add User"}
@@ -137,18 +139,8 @@ function UserManaging() {
                 <p><strong>Name:</strong> {user.name}</p>
                 <p><strong>Email:</strong> {user.email}</p>
                 <p><strong>City:</strong> {user.city}</p>
-                <button
-                  className="listBtn"
-                  onClick={() => updateAction(user.id)}
-                >
-                  Edit
-                </button>
-                <button
-                  className="listBtn"
-                  onClick={() => deleteAction(user.id)}
-                >
-                  Delete
-                </button>
+                <button className="listBtn" onClick={() => updateAction(user.id)}>Edit</button>
+                <button className="listBtn" onClick={() => deleteAction(user.id)}>Delete</button>
               </div>
             ))}
           </div>
