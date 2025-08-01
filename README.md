@@ -22,4 +22,7 @@ A full-stack user management CRUD application built with **React (Frontend)** an
 | 🔁 Versioning    : Git + GitHub
 
 ---
+## Live Link 
+Frontend :  https://fullstackcrudreact.netlify.app/
+Backend  : https://userapi-hqvf.onrender.com/api/User
 
