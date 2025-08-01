@@ -8,7 +8,7 @@ function UserManaging() {
   const [userCity, setUserCity] = useState('');
   const [selectedUserId, setSelectedUserId] = useState(null);
 
-  const baseUrl = `https://localhost:7131/api/User`;
+  const baseUrl = `https://userapi-hqvf.onrender.com`;
 
   // ✅ getApi wrapped in useCallback to avoid warning
   const getApi = useCallback(async () => {
