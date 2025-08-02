@@ -4,7 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
-
+.vsidx
+.vs/
+obj/
+bin/
 # testing
 /coverage
 
