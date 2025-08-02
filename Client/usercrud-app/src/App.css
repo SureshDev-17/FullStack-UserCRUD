@@ -42,7 +42,8 @@ h1, .heading {
   gap: 10px;
   flex-wrap: wrap;
 }
-.createdUser{
+
+.createdUser {
   width: 500px;
   min-height: 400px;
   max-height: 600px;
@@ -51,8 +52,9 @@ h1, .heading {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(8px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-   overflow: hidden;
+  overflow: hidden;
 }
+
 .userList {
   max-height: 500px;
   overflow-y: auto;
@@ -72,7 +74,6 @@ h1, .heading {
   font-family: 'Stardos Stencil', system-ui;
   text-align: center;
 }
-
 
 /* Input and Button Styles */
 .input-style {
@@ -100,7 +101,6 @@ button {
   transition: background 0.3s ease;
 }
 
-/* Optional Button Hover */
 button:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -120,7 +120,8 @@ button:hover {
   font-family: 'Julius Sans One', sans-serif;
   letter-spacing: 1px;
 }
-.listBtn{
+
+.listBtn {
   height: 25px;
   width: 120px;
   margin-top: 40px;
@@ -128,4 +129,54 @@ button:hover {
   right: 20px;
   backdrop-filter: blur(8px);
   border-radius: 12px;
+}
+
+/* ✅ Responsive Styles */
+@media screen and (max-width: 1024px) {
+  .main-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .createUser,
+  .createdUser {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .input-style,
+  button,
+  .user-card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .listBtn {
+    width: 45%;
+    margin: 10px 5px 0 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1, .heading {
+    font-size: 22px;
+  }
+
+  .input-style,
+  button,
+  .user-card {
+    font-size: 13px;
+    width: 95%;
+  }
+
+  .user-card {
+    height: auto;
+    padding: 12px;
+  }
+
+  .listBtn {
+    width: 100px;
+    font-size: 12px;
+  }
 }
