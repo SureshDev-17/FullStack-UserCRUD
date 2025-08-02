@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Suresh\\source\\repos\\UserAPI\\",
+  "WorkspaceRootPath": "D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{662CEF29-AC8F-4AC9-A027-5167420CFA00}|UserAPI.csproj|c:\\users\\suresh\\source\\repos\\userapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{662CEF29-AC8F-4AC9-A027-5167420CFA00}|UserAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{662CEF29-AC8F-4AC9-A027-5167420CFA00}|UserAPI.csproj|c:\\users\\suresh\\source\\repos\\userapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{662CEF29-AC8F-4AC9-A027-5167420CFA00}|UserAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{662CEF29-AC8F-4AC9-A027-5167420CFA00}|UserAPI.csproj|c:\\users\\suresh\\source\\repos\\userapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{662CEF29-AC8F-4AC9-A027-5167420CFA00}|UserAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{662CEF29-AC8F-4AC9-A027-5167420CFA00}|UserAPI.csproj|c:\\users\\suresh\\source\\repos\\userapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{662CEF29-AC8F-4AC9-A027-5167420CFA00}|UserAPI.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{662CEF29-AC8F-4AC9-A027-5167420CFA00}|UserAPI.csproj|c:\\users\\suresh\\source\\repos\\userapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{662CEF29-AC8F-4AC9-A027-5167420CFA00}|UserAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\UserAPI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserAPI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{662CEF29-AC8F-4AC9-A027-5167420CFA00}|UserAPI.csproj|c:\\users\\suresh\\source\\repos\\userapi\\userapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{662CEF29-AC8F-4AC9-A027-5167420CFA00}|UserAPI.csproj|solutionrelative:userapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,41 +34,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Suresh\\source\\repos\\UserAPI\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Suresh\\source\\repos\\UserAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T08:08:54.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Suresh\\source\\repos\\UserAPI\\Program.cs",
+              "DocumentMoniker": "D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Suresh\\source\\repos\\UserAPI\\Program.cs",
+              "ToolTip": "D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAWwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T07:18:26.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T07:18:26.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Suresh\\source\\repos\\UserAPI\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Suresh\\source\\repos\\UserAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -76,11 +75,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Suresh\\source\\repos\\UserAPI\\Models\\User.cs",
+              "DocumentMoniker": "D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\Suresh\\source\\repos\\UserAPI\\Models\\User.cs",
+              "ToolTip": "D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -88,11 +87,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "UserAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\Suresh\\source\\repos\\UserAPI\\UserAPI.csproj",
+              "DocumentMoniker": "D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\UserAPI.csproj",
               "RelativeDocumentMoniker": "UserAPI.csproj",
-              "ToolTip": "C:\\Users\\Suresh\\source\\repos\\UserAPI\\UserAPI.csproj",
+              "ToolTip": "D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\UserAPI.csproj",
               "RelativeToolTip": "UserAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -100,11 +99,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Suresh\\source\\repos\\UserAPI\\appsettings.json",
+              "DocumentMoniker": "D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Suresh\\source\\repos\\UserAPI\\appsettings.json",
+              "ToolTip": "D:\\Vites_Class\\Learning\\FullStack\\Backend\\UserAPI\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
